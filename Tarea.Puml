@@ -1,0 +1,12 @@
+@startuml
+class Temperatura {
+    - valorCelsius: double
+
+    + Temperatura()
+    + Temperatura(_valorCelsius: double)
+    + getCelsius(): double
+    + setCelsius(_valorCelsius: double): void
+    + getFahrenheit(): double
+}
+
+@enduml
